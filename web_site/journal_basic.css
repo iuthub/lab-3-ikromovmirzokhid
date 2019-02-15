@@ -19,11 +19,40 @@ blockquote {
 }
 
 body {
+	box-sizing: border-box;
+/*	margin-right: 10%;
+*/	margin-left: 20%;
 	font-family: "Georgia";
 	color: #009097;
+	background-color: #000;
 }
 
+.border{
+		background-color: #A8F0F0;
+		text-align: right;
+}
 
+.border2{
+	font-size: 14pt;
+}
+.div1{
+		border: 5px solid #C2E9E9;
+		background-color: #E8FBFB;
+		border-width: 4px;
+		padding: 5px;
+		margin-top: 10px; 
+		overflow: hidden;
+		box-sizing: border-box;
+}
+.date{
+		border-bottom: 2px dashed blue;
+}
+#main_border{
+		border: 5px solid white;
+		border-width: 10px; 
+		background-color: white;
+		width: 800px;
+}
 h1, h2 {
 	font-weight: normal;
 	font-family: "Century Gothic";
@@ -34,6 +63,9 @@ h1, h2 {
 img {
 	border-style: none;
 	padding: 5px;
+	float: right;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
 }
 
 ul {
